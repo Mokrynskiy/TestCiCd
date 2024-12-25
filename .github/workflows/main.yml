@@ -7,7 +7,7 @@ on:
     - '**.cs'
     - '**.csproj'
 env:
-  DOTNET_VERSION: "8.0"
+  DOTNET_VERSION: '8.0'
 jobs:
   build:
     name: build-${{matrix.os}}
